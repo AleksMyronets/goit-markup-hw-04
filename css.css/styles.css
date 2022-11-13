@@ -81,6 +81,9 @@ ul {
     letter-spacing: 0.02em;
     color: var(--color-grey);
     text-decoration: none;
+    align-items: center;
+    display: flex;
+    gap: 10px;
 }
 
 .list { 
@@ -110,6 +113,10 @@ ul {
     color: var(--color-blue);
 }
 
+.icon-contact{
+    
+}
+
 
 
 .list-link {
@@ -137,10 +144,12 @@ ul {
 }
 
 .banner {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
     margin: auto;
-    background: var(--color-dark-grey);
     text-align: center;
 }
 
@@ -194,6 +203,17 @@ ul {
 .to-do-list{
     display: flex;
     gap: 30px
+}
+
+.to-do-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 }
 
 .to-do-body {
@@ -293,6 +313,92 @@ ul {
     line-height: 1.19;
     text-align: center;
     color:var(--color-grey);
+}
+
+.social-networks-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--color-white);
+}
+
+.social-networks {
+    width: 44px;
+    height: 44px;
+}
+
+.social-networks-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: #AFB1B8;
+}
+
+.social-networks:hover,
+.social-networks:focus {
+    background-color: var(--color-blue)
+}
+
+.social-networks-link:hover .social-networks-icon {
+    fill: var(--color-white)
+}
+
+.social-networks-link:focus .social-networks-icon {
+    fill: var(--color-white)
+}
+
+.client-title{
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.client{
+    background-color: var(--color-white);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    gap: 30px;
+}
+
+.client-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.client-item {
+    width: 170px;
+    height: 92px;
+
+}
+
+.client-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+}
+
+.client-link:hover,
+.client-link:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+.client-logo {
+    fill: currentColor;
 }
 
 .footer {
