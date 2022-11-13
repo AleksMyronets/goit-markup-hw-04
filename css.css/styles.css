@@ -283,7 +283,6 @@ ul {
 
 .list-team-name{
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .jobs-list {
@@ -316,6 +315,7 @@ ul {
 }
 
 .social-networks-list {
+    padding: 16px 32px 30px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -371,7 +371,6 @@ ul {
     display: flex;
     gap: 30px;
     justify-content: center;
-
 }
 
 .client-item {
@@ -533,6 +532,46 @@ img{
     font-size: 16px;
     line-height: 1.88;
     color: var(--color-grey);
+}
+
+.social-link-footer {
+    margin-left: 70px;
+}
+
+.social-link-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-white-color);
+}
+
+.social-link-title {
+    display: flex;
+    width: 206px;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.social-link-item {
+    width: 44px;
+    height: 44px;
+}
+
+.social-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--color-blue);
 }
 
 
