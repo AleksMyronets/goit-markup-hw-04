@@ -296,7 +296,8 @@ ul {
 }
 
 .list-team-name{
-    padding-top: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
    
 }
 
@@ -323,6 +324,7 @@ ul {
 }
 
 .jobs-title {
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -330,7 +332,9 @@ ul {
 }
 
 .social-networks-list {
-    padding: 16px 32px 30px 32px;
+    margin-bottom: 30px;
+    margin-right: 32px;
+    margin-left: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
